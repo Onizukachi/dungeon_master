@@ -1,4 +1,5 @@
 require_relative 'combatable'
+require_relative 'interact'
 require_relative 'world'
 require_relative 'room'
 require_relative 'hero'

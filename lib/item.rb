@@ -1,9 +1,5 @@
 class Item
-  def interact(player)
-    puts "You pick up #{self}"
-
-    perform_item_effect(player)
-  end
+  include Interact::ItemInteract
 
   def to_s
     "incredible #{self.class}"
